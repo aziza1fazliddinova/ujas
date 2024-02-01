@@ -270,7 +270,8 @@ function reload() {
         button.textContent = 'В избранное'
         button.onclick = () => {
             button.style.backgroundColor = 'blue'
-            button.style.color
+            button.style.color= 'white'
+            button.innerHTML = 'Добавленно'
         }
         tovari.appendChild(boxHead);
         tovari.appendChild(boxBody);
